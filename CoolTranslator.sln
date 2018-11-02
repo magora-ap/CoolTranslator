@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolTranslator.Core", "CoolTranslator.Core\CoolTranslator.Core.csproj", "{CCAA0A08-4D98-486B-8EBD-E5CE80F160DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolTranslator.ConsoleClient", "CoolTranslator.ConsoleClient\CoolTranslator.ConsoleClient.csproj", "{19366CDE-3619-4A09-A9A1-29ECCB33F7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolTranslator.Plugins.EnglishTranslator", "CoolTranslator.Plugins.EnglishTranslator\CoolTranslator.Plugins.EnglishTranslator.csproj", "{EF2F6643-CCB5-43FB-A48B-90DB27208896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolTranslator.RestApi", "CoolTranslator.RestApi\CoolTranslator.RestApi.csproj", "{D7155549-6D7F-4D8C-B4D3-020FCBE33E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolTranslator.RestApi.Tests", "CoolTranslator.RestApi.Tests\CoolTranslator.RestApi.Tests.csproj", "{A008107A-1423-4899-B366-E1B57FC86FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolTranslator.Plugins.GermanTranslator", "CoolTranslator.Plugins.GermanTranslator\CoolTranslator.Plugins.GermanTranslator.csproj", "{7F184110-C673-4930-8471-88ACF9D84FAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCAA0A08-4D98-486B-8EBD-E5CE80F160DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCAA0A08-4D98-486B-8EBD-E5CE80F160DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCAA0A08-4D98-486B-8EBD-E5CE80F160DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCAA0A08-4D98-486B-8EBD-E5CE80F160DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19366CDE-3619-4A09-A9A1-29ECCB33F7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19366CDE-3619-4A09-A9A1-29ECCB33F7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19366CDE-3619-4A09-A9A1-29ECCB33F7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19366CDE-3619-4A09-A9A1-29ECCB33F7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2F6643-CCB5-43FB-A48B-90DB27208896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2F6643-CCB5-43FB-A48B-90DB27208896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2F6643-CCB5-43FB-A48B-90DB27208896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2F6643-CCB5-43FB-A48B-90DB27208896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7155549-6D7F-4D8C-B4D3-020FCBE33E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7155549-6D7F-4D8C-B4D3-020FCBE33E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7155549-6D7F-4D8C-B4D3-020FCBE33E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7155549-6D7F-4D8C-B4D3-020FCBE33E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A008107A-1423-4899-B366-E1B57FC86FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A008107A-1423-4899-B366-E1B57FC86FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A008107A-1423-4899-B366-E1B57FC86FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A008107A-1423-4899-B366-E1B57FC86FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F184110-C673-4930-8471-88ACF9D84FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F184110-C673-4930-8471-88ACF9D84FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F184110-C673-4930-8471-88ACF9D84FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F184110-C673-4930-8471-88ACF9D84FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
